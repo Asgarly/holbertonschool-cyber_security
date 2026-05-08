@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1: $(sha256sum "$1" | cut -d' ' -f1 | grep -qx "$2" && echo OK || echo NOT_OK)"
+[ "$(sha256sum "$1" | cut -d' ' -f1)" = "$2" ] && echo "$1: OK" || echo "$1: NOT_OK"
