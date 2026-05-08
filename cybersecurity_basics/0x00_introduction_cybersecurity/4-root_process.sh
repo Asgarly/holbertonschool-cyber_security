@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -U "$1" -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | awk 'NR==1 || ($5!=0 && $6!=0)'
+ps -U "$1" -v | awk '$8!=0 && $9!=0'
