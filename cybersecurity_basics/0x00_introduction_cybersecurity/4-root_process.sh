@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -U "$1" -v | grep -v ' 0 \+0 '
+ps -U "$1" -v | grep '^'"$1"'' | grep -v ' 0 \+0 '
