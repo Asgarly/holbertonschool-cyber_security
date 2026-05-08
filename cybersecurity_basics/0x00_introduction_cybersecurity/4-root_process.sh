@@ -1,2 +1,3 @@
 #!/bin/bash
-ps -u "$1" -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | grep -v "VSZ" | awk '$5 > 0 && $6 > 0'
+
+ps -u "$1" -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | grep -v "VSZ" | grep -v "0 0"
