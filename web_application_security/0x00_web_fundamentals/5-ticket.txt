@@ -1,10 +1,6 @@
-GET /ticket?id=8 HTTP/1.1
+GET /ticket?id=1 HTTP/1.1
 Host: web0x00.hbtn
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://web0x00.hbtn/support
-Cookie: session=.eJxFyksKgCAURuG9_GMJmzoqWkIrULyR4AuvUhDtPaGBw_NxHqw2uMhQh_ZMAlvjmgKVIXvLOZXaoZbWm4J2Hgr8-3KRkbeU02lqhICzULNAYypRBxoj3g8vsSW4.akE-yQ.sp5aTnsf1bASixOacKWPHbMg_Jo
-Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,/ ; q=0.8
+Cookie: session=.eJxFyjEKgDAMBdC7_LlIwa2T4hE8QcSIBdNK2qAg3l0nXR_vQj9LTAVhoa2ww2ClZmF9paq9MNq-Z63_YKG4IUBIs1F38ORP75t1qgkOcUZoHaywJhL-Hu4H2Qkkig.akFqkg.zzgt4eTmhC70GYA5cqOuurLLQ5c
+Connection: close
